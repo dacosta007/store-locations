@@ -1,0 +1,22 @@
+{
+  "name": "store_location_with_geojson_api",
+  "version": "1.0.0",
+  "description": "store locations with GeoJSON api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Abiodun Olakunle Dacosta",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.3",
+    "node-geocoder": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
